@@ -21,8 +21,54 @@
   </head>
   <body class="fondo">
     <div class="containar-fluid w-100 vh-100 d-flex align-items-center">
-      <nav class="navbar bg-body-tertiary fixed-top justify-content-center" style="background-image: radial-gradient(#000000, #198754); opacity: .9">
-        <img src="img/logo.png" width="75" height="75">
+      <nav class="navbar bg-body-tertiary fixed-top justify-content-center p-md-1" style="background-image: radial-gradient(#000000, #198754); opacity: .8">
+        <div class="justify-content-center">
+          <ul class="navbar justify-content-center">
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+              <i class="fa solid fa-circle-half-stroke fa-2x" style="color: #9fff15;"></i>
+            </button>   
+            <img src="img/logo.png" width="60" height="60">
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+               <i class="fa-solid fa-language fa-2x" style="color: #9fff15;"></i>
+             </button>
+              <div class="container offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="offcanvas-title text-center" id="offcanvasBottomLabel">Idiomas</h5>
+                    </div>
+                    <div class="col">
+                      <button type="button" class="btn-close btn-success" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="offcanvas-body small">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                        <img src="img/bol.png" width="47" height="30">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">
+                        <img src="img/fra.png" width="47" height="30">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">
+                        <img src="img/rba.png" width="47" height="30">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <img src="img/usa.png" width="47" height="30">
+                      </a>
+                    </li>
+
+                  </ul>
+                  <div>
+          </ul>
+       </div>
       </nav>
       <div class="container">
         <div class="row align-items-center">
@@ -32,18 +78,23 @@
         
           </div>
           <div class="col-4 text-center">
-            <img src="img/yo.png" class="img-fluid" width="230" height="330">
+            <img src="img/yo.png" class="img-fluid img-thumbnail" width="250" height="350">
           </div>
-          <div class="col-7 bg-danger">
+          <div class="col-7 bg-danger bg-opacity-30 text-white">
             <div class="row align-items-center">
               <div class="col-md-11">
                 <h1 class="display-4">¡Hola!</h1>
-                <h2>Me llamo:</h2> <h1 class="display-6">Yovan Ram&oacute;n</h1>
+                <h2>Me llamo:</h2> 
+                <h1 class="display-6">Yovan Ram&oacute;n</h1>
+                <h1 class="display-6">Yaune Enovore</h1>
+              </div>
+              <div class="col-md-1">
+                  <button class="btn btn-success" type="button">
+                    <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                      Informaci&oacute;n
+                  </button>
              </div>
-              <div class="col-md-1 text-center">
-               <button type="button" class="btn btn-success"><h4>+INFO</h4></button>
-             </div>
-            </div> 
+            </div>
           </div>
         </div>  
       </div>
@@ -54,40 +105,46 @@
         <p class="h6">YNV &copy; Copyright 2023 Todos los Derechos Reservados.</p>
           <hr>
             <p>
-              <abbr title="Dev Yovan Ram&oacute;n Yaune Enovore" class="initialism">Yovan   
-<img src="img/logo.png" width="75" height="75">
-              </abbr>
+              <div class="row text-center align-items-center">
+                <div class="col">
+                  <abbr title="Dev Yovan Ram&oacute;n Yaune Enovore" class="initialism">Yovan Ramon Yaune Enovore </abbr>
+                </div>
+                  <br>
+                <div class="col">
+                  <img src="img/logo.png" width="260" height="250">
+                </div>
+              </div>
             </p>
               Licencia del c&oacute;digo 
                 <i class="fa-solid fa-m" style="color: #9fff15"></i>
                 <i class="fa-solid fa-i" style="color: #9fff15"></i>
-                <i class="fa-solid fa-t" style="color: #9fff15"></i>, docs <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><a class="link-dark" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY 4.0</a>.
+                <i class="fa-solid fa-t" style="color: #9fff15"></i>, docs <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><a class="link-dark" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY 4.0</a> .
                   <hr>  
                   <div class="container text-center">
                     <div class="row align-items-start">
                       <div class="col">
                         <a href="https://github.com/ynvYauneEnovore">
-                          <i class="fa-brands fa-github fa-3x fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; color: #9fff15;"></i>
+                          <i class="fa-brands fa-github fa-3x fa-fade" style="--fa-animation-duration: 1s; --fa-fade-opacity: 0.4; color: #9fff15;"></i>
                         </a>
                       </div>
                       <div class="col">
                         <a href="https://www.facebook.com/ynvyvn/">
-                          <i class="fa-brands fa-facebook fa-3x fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; color: #9fff15;"></i>
+                          <i class="fa-brands fa-facebook fa-3x fa-fade" style="--fa-animation-duration: 1s; --fa-fade-opacity: 0.4; color: #9fff15;"></i>
                         </a>
                       </div>
                       <div class="col">
                         <a href="mailto:yovanuxf@gmail.com?Subject=system%esta-f%contact">
-                          <i class="fa-brands fa-google-plus fa-3x fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; color: #9fff15;"></i>
+                          <i class="fa-brands fa-google-plus fa-3x fa-fade" style="--fa-animation-duration: 1s; --fa-fade-opacity: 0.4; color: #9fff15;"></i>
                         </a>
                       </div>
                       <div class="col">
                         <a href="https://www.instagram.com/ynvenovore/">
-                          <i class="fa-brands fa-instagram fa-3x fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; color: #9fff15;"></i>
+                          <i class="fa-brands fa-instagram fa-3x fa-fade" style="--fa-animation-duration: 1s; --fa-fade-opacity: 0.4; color: #9fff15;"></i>
                         </a>
                       </div>
                       <div class="col">
                         <a href="https://www.linkedin.com/in/yovan-r-yaune-enovore-176817167/">
-                          <i class="fa-brands fa-linkedin-in fa-3x fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; color: #9fff15;"></i>
+                          <i class="fa-brands fa-linkedin-in fa-3x fa-fade" style="--fa-animation-duration: 1s; --fa-fade-opacity: 0.4; color: #9fff15;"></i>
                         </a>
                       </div>
                     </div>
