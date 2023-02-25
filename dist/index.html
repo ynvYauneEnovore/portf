@@ -19,21 +19,27 @@
       }
     </style>
   </head>
-  <body class="fondo1">
+  <body>
+    <!--//onpageshow="hola()"
+        //onresize="tam()-->
     <div class="containar-fluid w-100 vh-100 d-flex align-items-center">
-      <nav class="navbar bg-body-tertiary fixed-top justify-content-center p-md-1" style="background-image: radial-gradient(#000000, #198754); opacity: .9">
+      <nav class="navbar bg-body-tertiary fixed-top justify-content-center p-md-2" style="background-image: radial-gradient(#000000, #198754); opacity: .9">
         <div class="justify-content-center">
           <ul class="navbar justify-content-center">
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+
+            <button class="btn" type="button" onclick="myFunction()">
               <i class="fa solid fa-circle-half-stroke fa-2x" style="color: #ffffff;"></i>
             </button>   
-            <img src="img/logo.png" width="60" height="60" alt="logotipo-YNV-fase-00-00-0001">
+             <i class="fa-duotone fa-fill-drip fa-3x"></i> <!-- a duotone style fill-drip icon -->
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+              <img src="img/logo.png" width="60" height="60" alt="logotipo-YNV-fase-00-00-0001">
+            </button>
             <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                <i class="fa-solid fa-language fa-2x" style="color: #ffffff;"></i>
              </button>
-              <div class="container offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+              <div class="container offcanvas offcanvas-bottom bg-black" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title text-center" id="offcanvasBottomLabel">Idiomas</h5>
+                  <h5 class="offcanvas-title text-center text-white" id="offcanvasBottomLabel">Idiomas</h5>
                     <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body small">
@@ -61,27 +67,64 @@
 
                   </ul>
                   <div>
+
           </ul>
        </div>
       </nav>
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-1 bg-black text-center text-light fixed-top vh-100">
+          <div class="col-1 bg-black text-center text-white fixed-top vh-100">
        
             <h1 class="display-6"><br><br><br>D<br><br>E<br><br>V</h1>
         
           </div>
-          <div class="col-4 text-center">
+          <div class="col text-center">
             <img src="img/yo.png" class="img-fluid img-thumbnail" width="250" height="350">
           </div>
-          <div class="col-7 bg-danger text-white bg-opacity-25">
-              <div class="col-md-11">
+          <div class="col bg-danger bg-opacity-25">
+            <div class="row text-center">
+              <div class="col">
                 <h1 class="display-4">¡Hola!</h1>
                 <h2>Me llamo:</h2> <h1 class="display-6">Yovan Ram&oacute;n</h1>
-                  <button class="btn btn-success" type="button">
-                    <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
-                      Informaci&oacute;n
-                  </button>
+                  
+                    <div class="offcanvas offcanvas-top bg-black" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-white" id="offcanvasTopLabel">Men&uacute;:</h5>
+                        <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+
+                      <div class="offcanvas-body ">
+                        <ul class="nav justify-content-center">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: #9fff15;">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #9fff15;">Cantáctame</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #9fff15;">Experiencia</a>
+                          </li>
+                          <li class="nav-item">
+                             <img src="img/logo.png" width="35" height="35" alt="logotipo-YNV-fase-00-00-0001">
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #9fff15;">Trabajemos Juntos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" style="color: #9fff15;">Proyectos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #9fff15;">Sobre mi</a>
+                          </li>
+                        </ul>
+                       </div>
+
+                      </div>
+                    </div> 
+                    <div class="col">
+                    <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                  <h4><i class="fa-regular fa-list-dropdown fa-2x"></i>Informaci&oacute;n</h4></button>
+                  </div>             
              </div>
           </div>
         </div>  
@@ -95,11 +138,13 @@
             <p>
               <div class="row text-center align-items-center">
                 <div class="col">
-                  <img src="img/mib.png" width="220" height="200">
+                  <img src="img/mib.png" width="220" height="210">
                 </div>
                   <br>
                 <div class="col">
-                  <img src="img/logo.png" width="220" height="200">
+                  <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                  <img src="img/logo.png" width="220" height="210">
+                </button>
                 </div>
               </div>
             </p>
@@ -141,6 +186,24 @@
   </div>
   <!-- Copyright -->
     <script src="./main.js"></script>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<script type="text/javascript">
+  $('i').click(function() {
+  $(this).toggleClass('fa-minus').toggleClass('fa-plus');
+});
+</script>
+<script>
+function hola() {
+  alert("Hola bienvenido!");
+}
+function tam() {
+  alert("Estas apunto de alterar alguno diseño!!!");
+}
+</script>
   </body>
 </html>
-temas
