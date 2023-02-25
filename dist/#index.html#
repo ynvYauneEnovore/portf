@@ -2,7 +2,7 @@
 * Name        : Portafolio-Personal
 * Author      : Yovan R. Y. Enovore
 * Version     : 1.02
-* Copyright   : YNV Ⓒ 2023
+* Copyright   : YNV â¸ 2023
 * Description : Inicio-sistema-web.
 * -->
 <!doctype html>
@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/logo.png" type="image/icon type">
-    <title>Yovan Ramón</title>
+    <title>Yovan RamÃ³n</title>
     <style>
       .fondo {
         background-image: url('img/fondo.png');
@@ -19,7 +19,7 @@
       }
     </style>
   </head>
-  <body class="fondo1">
+  <body class="fondo">
     <div class="containar-fluid w-100 vh-100 d-flex align-items-center">
       <nav class="navbar bg-body-tertiary fixed-top justify-content-center p-md-1" style="background-image: radial-gradient(#000000, #198754); opacity: .9">
         <div class="justify-content-center">
@@ -27,35 +27,35 @@
             <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
               <i class="fa solid fa-circle-half-stroke fa-2x" style="color: #ffffff;"></i>
             </button>   
-            <img src="img/logo.png" width="60" height="60" alt="logotipo-YNV-fase-00-00-0001">
+            <img src="img/logo.png" width="60" height="60">
             <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                <i class="fa-solid fa-language fa-2x" style="color: #ffffff;"></i>
              </button>
               <div class="container offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title text-center" id="offcanvasBottomLabel">Idiomas</h5>
-                    <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body small">
                   <ul class="nav nav-tabs">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">
-                        <img src="img/bol.png" width="47" height="30" alt="idioma-snapanish-bol-YNV-fase-00-00-0001">
+                        <img src="img/bol.png" width="47" height="30">
                       </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link disabled" href="#">
-                        <img src="img/fra.png" width="47" height="30" alt="idioma-frances-YNV-fase-00-00-0001">
+                        <img src="img/fra.png" width="47" height="30">
                       </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link disabled" href="#">
-                        <img src="img/rba.png" width="47" height="30" alt="idioma-portugues-YNV-fase-00-00-0001">
+                        <img src="img/rba.png" width="47" height="30">
                       </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">
-                        <img src="img/usa.png" width="47" height="30" alt="idioma-english-YNV-fase-00-00-0001">
+                        <img src="img/usa.png" width="47" height="30">
                       </a>
                     </li>
 
@@ -76,7 +76,7 @@
           </div>
           <div class="col-7 bg-danger text-white bg-opacity-25">
               <div class="col-md-11">
-                <h1 class="display-4">¡Hola!</h1>
+                <h1 class="display-4">Â¡Hola!</h1>
                 <h2>Me llamo:</h2> <h1 class="display-6">Yovan Ram&oacute;n</h1>
                   <button class="btn btn-success" type="button">
                     <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
@@ -95,11 +95,11 @@
             <p>
               <div class="row text-center align-items-center">
                 <div class="col">
-                  <img src="img/mib.png" width="220" height="200">
+                  <img src="img/mib.png" width="210" height="200">
                 </div>
                   <br>
                 <div class="col">
-                  <img src="img/logo.png" width="220" height="200">
+                  <img src="img/logo.png" width="210" height="200">
                 </div>
               </div>
             </p>
