@@ -1,0 +1,241 @@
+[33mcommit eca1431bea0c168c49e16911d3cf5a289ad85925[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: ynvYauneEnovore <yovanuxf@gmail.com>
+Date:   Sat Feb 25 12:00:32 2023 -0400
+
+    dia 3
+
+ dist/#index.html#        | 145 [32m+++++++++++++++++++++++++++++++++++++++++++++++[m
+ dist/img/ChromeSetup.exe | Bin [31m0[m -> [32m1427176[m bytes
+ dist/img/mib.png         | Bin [31m0[m -> [32m13811[m bytes
+ dist/index.html          |  52 [32m+++++++[m[31m----------[m
+ 4 files changed, 165 insertions(+), 32 deletions(-)
+
+[33mcommit 62880626bf87dea98b51939353b5cb875e69e64d[m
+Author: ynvYauneEnovore <yovanuxf@gmail.com>
+Date:   Fri Feb 24 06:42:21 2023 -0400
+
+    dia -2
+
+ dist/img/Hisee SE-1149_12-29-2022.mp4 | Bin [31m0[m -> [32m2787072[m bytes
+ dist/img/bol.png                      | Bin [31m0[m -> [32m44911[m bytes
+ dist/img/fra.png                      | Bin [31m0[m -> [32m6667[m bytes
+ dist/img/rba.png                      | Bin [31m0[m -> [32m70473[m bytes
+ dist/img/usa.png                      | Bin [31m0[m -> [32m292554[m bytes
+ dist/index.html                       |  93 [32m+++++++++++++++++++++++++++[m[31m-------[m
+ src/js/main.js                        |   6 [32m++[m[31m-[m
+ src/scss/boton.css                    |   0
+ 8 files changed, 80 insertions(+), 19 deletions(-)
+
+[33mcommit b07d270890db83b33bb6b7b8ae0064d3888fab39[m
+Author: ynvYauneEnovore <yovanuxf@gmail.com>
+Date:   Thu Feb 23 14:23:52 2023 -0400
+
+    actualizacion de iconos
+
+ dist/img/fondo.png                                 |    Bin [31m0[m -> [32m10567[m bytes
+ dist/img/logo.png                                  |    Bin [31m0[m -> [32m1221584[m bytes
+ dist/img/yo.png                                    |    Bin [31m0[m -> [32m250417[m bytes
+ dist/index.html                                    |     93 [32m+[m[31m-[m
+ node_modules/.package-lock.json                    |     10 [32m+[m
+ .../@fortawesome/fontawesome-free/LICENSE.txt      |    165 [32m+[m
+ .../@fortawesome/fontawesome-free/attribution.js   |      4 [32m+[m
+ .../@fortawesome/fontawesome-free/css/all.css      |   7955 [32m++[m
+ .../@fortawesome/fontawesome-free/css/all.min.css  |      9 [32m+[m
+ .../@fortawesome/fontawesome-free/css/brands.css   |   1522 [32m+[m
+ .../fontawesome-free/css/brands.min.css            |      6 [32m+[m
+ .../fontawesome-free/css/fontawesome.css           |   6372 [32m+[m
+ .../fontawesome-free/css/fontawesome.min.css       |      9 [32m+[m
+ .../@fortawesome/fontawesome-free/css/regular.css  |     19 [32m+[m
+ .../fontawesome-free/css/regular.min.css           |      6 [32m+[m
+ .../@fortawesome/fontawesome-free/css/solid.css    |     19 [32m+[m
+ .../fontawesome-free/css/solid.min.css             |      6 [32m+[m
+ .../fontawesome-free/css/svg-with-js.css           |    638 [32m+[m
+ .../fontawesome-free/css/svg-with-js.min.css       |      6 [32m+[m
+ .../fontawesome-free/css/v4-font-face.css          |     26 [32m+[m
+ .../fontawesome-free/css/v4-font-face.min.css      |      6 [32m+[m
+ .../@fortawesome/fontawesome-free/css/v4-shims.css |   2194 [32m+[m
+ .../fontawesome-free/css/v4-shims.min.css          |      6 [32m+[m
+ .../fontawesome-free/css/v5-font-face.css          |     22 [32m+[m
+ .../fontawesome-free/css/v5-font-face.min.css      |      6 [32m+[m
+ .../fortawesome-fontawesome-free-6.3.0.tgz         |    Bin [31m0[m -> [32m4848394[m bytes
+ .../@fortawesome/fontawesome-free/js/all.js        |   5953 [32m+[m
+ .../@fortawesome/fontawesome-free/js/all.min.js    |      6 [32m+[m
+ .../@fortawesome/fontawesome-free/js/brands.js     |    743 [32m+[m
+ .../@fortawesome/fontawesome-free/js/brands.min.js |      6 [32m+[m
+ .../fontawesome-free/js/conflict-detection.js      |   1132 [32m+[m
+ .../fontawesome-free/js/conflict-detection.min.js  |      6 [32m+[m
+ .../fontawesome-free/js/fontawesome.js             |   3120 [32m+[m
+ .../fontawesome-free/js/fontawesome.min.js         |      6 [32m+[m
+ .../@fortawesome/fontawesome-free/js/regular.js    |    439 [32m+[m
+ .../fontawesome-free/js/regular.min.js             |      6 [32m+[m
+ .../@fortawesome/fontawesome-free/js/solid.js      |   1666 [32m+[m
+ .../@fortawesome/fontawesome-free/js/solid.min.js  |      6 [32m+[m
+ .../@fortawesome/fontawesome-free/js/v4-shims.js   |    219 [32m+[m
+ .../fontawesome-free/js/v4-shims.min.js            |      6 [32m+[m
+ .../fontawesome-free/less/_animated.less           |    152 [32m+[m
+ .../fontawesome-free/less/_bordered-pulled.less    |     20 [32m+[m
+ .../@fortawesome/fontawesome-free/less/_core.less  |     38 [32m+[m
+ .../fontawesome-free/less/_fixed-width.less        |      7 [32m+[m
+ .../@fortawesome/fontawesome-free/less/_icons.less |      9 [32m+[m
+ .../@fortawesome/fontawesome-free/less/_list.less  |     18 [32m+[m
+ .../fontawesome-free/less/_mixins.less             |     78 [32m+[m
+ .../fontawesome-free/less/_rotated-flipped.less    |     31 [32m+[m
+ .../fontawesome-free/less/_screen-reader.less      |     14 [32m+[m
+ .../@fortawesome/fontawesome-free/less/_shims.less |   2042 [32m+[m
+ .../fontawesome-free/less/_sizing.less             |     19 [32m+[m
+ .../fontawesome-free/less/_stacked.less            |     31 [32m+[m
+ .../fontawesome-free/less/_variables.less          |   4962 [32m+[m
+ .../@fortawesome/fontawesome-free/less/brands.less |     29 [32m+[m
+ .../fontawesome-free/less/fontawesome.less         |     20 [32m+[m
+ .../fontawesome-free/less/regular.less             |     25 [32m+[m
+ .../@fortawesome/fontawesome-free/less/solid.less  |     26 [32m+[m
+ .../fontawesome-free/less/v4-shims.less            |     10 [32m+[m
+ .../fontawesome-free/metadata/categories.yml       |   3054 [32m+[m
+ .../fontawesome-free/metadata/icon-families.json   | 110086 [32m++++++++++++++++++[m
+ .../fontawesome-free/metadata/icon-families.yml    |  49600 [32m++++++++[m
+ .../fontawesome-free/metadata/icons.yml            |  39828 [32m+++++++[m
+ .../fontawesome-free/metadata/shims.yml            |    646 [32m+[m
+ .../fontawesome-free/metadata/sponsors.yml         |   1347 [32m+[m
+ .../@fortawesome/fontawesome-free/package.json     |     32 [32m+[m
+ .../fontawesome-free/scss/_animated.scss           |    153 [32m+[m
+ .../fontawesome-free/scss/_bordered-pulled.scss    |     20 [32m+[m
+ .../@fortawesome/fontawesome-free/scss/_core.scss  |     43 [32m+[m
+ .../fontawesome-free/scss/_fixed-width.scss        |      7 [32m+[m
+ .../fontawesome-free/scss/_functions.scss          |     57 [32m+[m
+ .../@fortawesome/fontawesome-free/scss/_icons.scss |     10 [32m+[m
+ .../@fortawesome/fontawesome-free/scss/_list.scss  |     18 [32m+[m
+ .../fontawesome-free/scss/_mixins.scss             |     75 [32m+[m
+ .../fontawesome-free/scss/_rotated-flipped.scss    |     31 [32m+[m
+ .../fontawesome-free/scss/_screen-reader.scss      |     14 [32m+[m
+ .../@fortawesome/fontawesome-free/scss/_shims.scss |   2042 [32m+[m
+ .../fontawesome-free/scss/_sizing.scss             |     16 [32m+[m
+ .../fontawesome-free/scss/_stacked.scss            |     32 [32m+[m
+ .../fontawesome-free/scss/_variables.scss          |   4961 [32m+[m
+ .../@fortawesome/fontawesome-free/scss/brands.scss |     30 [32m+[m
+ .../fontawesome-free/scss/fontawesome.scss         |     21 [32m+[m
+ .../fontawesome-free/scss/regular.scss             |     26 [32m+[m
+ .../@fortawesome/fontawesome-free/scss/solid.scss  |     26 [32m+[m
+ .../fontawesome-free/scss/v4-shims.scss            |     11 [32m+[m
+ .../fontawesome-free/sprites/brands.svg            |   1409 [32m+[m
+ .../fontawesome-free/sprites/regular.svg           |    497 [32m+[m
+ .../fontawesome-free/sprites/solid.svg             |   4178 [32m+[m
+ .../fontawesome-free/svgs/brands/42-group.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/500px.svg         |      1 [32m+[m
+ .../svgs/brands/accessible-icon.svg                |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/accusoft.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/adn.svg           |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/adversal.svg      |      1 [32m+[m
+ .../svgs/brands/affiliatetheme.svg                 |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/airbnb.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/algolia.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/alipay.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/amazon-pay.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/amazon.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/amilia.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/android.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/angellist.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/angrycreative.svg |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/angular.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/app-store-ios.svg |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/app-store.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/apper.svg         |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/apple-pay.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/apple.svg         |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/artstation.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/asymmetrik.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/atlassian.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/audible.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/autoprefixer.svg  |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/avianex.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/aviato.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/aws.svg           |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bandcamp.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/battle-net.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/behance.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bilibili.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bimobject.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bitbucket.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bitcoin.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bity.svg          |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/black-tie.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/blackberry.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/blogger-b.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/blogger.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bluetooth-b.svg   |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bluetooth.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bootstrap.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/bots.svg          |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/btc.svg           |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/buffer.svg        |      1 [32m+[m
+ .../svgs/brands/buromobelexperte.svg               |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/buy-n-large.svg   |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/buysellads.svg    |      1 [32m+[m
+ .../svgs/brands/canadian-maple-leaf.svg            |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-amazon-pay.svg |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-amex.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-apple-pay.svg  |      1 [32m+[m
+ .../svgs/brands/cc-diners-club.svg                 |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-discover.svg   |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-jcb.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-mastercard.svg |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-paypal.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-stripe.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cc-visa.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/centercode.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/centos.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/chrome.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/chromecast.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cloudflare.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cloudscale.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cloudsmith.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cloudversify.svg  |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cmplid.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/codepen.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/codiepie.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/confluence.svg    |      1 [32m+[m
+ .../svgs/brands/connectdevelop.svg                 |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/contao.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cotton-bureau.svg |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cpanel.svg        |      1 [32m+[m
+ .../svgs/brands/creative-commons-by.svg            |      1 [32m+[m
+ .../svgs/brands/creative-commons-nc-eu.svg         |      1 [32m+[m
+ .../svgs/brands/creative-commons-nc-jp.svg         |      1 [32m+[m
+ .../svgs/brands/creative-commons-nc.svg            |      1 [32m+[m
+ .../svgs/brands/creative-commons-nd.svg            |      1 [32m+[m
+ .../svgs/brands/creative-commons-pd-alt.svg        |      1 [32m+[m
+ .../svgs/brands/creative-commons-pd.svg            |      1 [32m+[m
+ .../svgs/brands/creative-commons-remix.svg         |      1 [32m+[m
+ .../svgs/brands/creative-commons-sa.svg            |      1 [32m+[m
+ .../svgs/brands/creative-commons-sampling-plus.svg |      1 [32m+[m
+ .../svgs/brands/creative-commons-sampling.svg      |      1 [32m+[m
+ .../svgs/brands/creative-commons-share.svg         |      1 [32m+[m
+ .../svgs/brands/creative-commons-zero.svg          |      1 [32m+[m
+ .../svgs/brands/creative-commons.svg               |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/critical-role.svg |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/css3-alt.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/css3.svg          |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/cuttlefish.svg    |      1 [32m+[m
+ .../svgs/brands/d-and-d-beyond.svg                 |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/d-and-d.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/dailymotion.svg   |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/dashcube.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/deezer.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/delicious.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/deploydog.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/deskpro.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/dev.svg           |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/deviantart.svg    |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/dhl.svg           |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/diaspora.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/digg.svg          |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/digital-ocean.svg |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/discord.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/discourse.svg     |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/dochub.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/docker.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/draft2digital.svg |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/dribbble.svg      |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/dropbox.svg       |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/drupal.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/dyalog.svg        |      1 [32m+[m
+ .../fontawesome-free/svgs/brands/earlybirds.svg    |      1 [32m+[
